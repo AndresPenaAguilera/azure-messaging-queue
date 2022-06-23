@@ -6,7 +6,7 @@ namespace StorageQueueDemo
 {
     class Program
     {
-        private const string storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sotagequeue;AccountKey=3UedLchsmGxKuhUsf2SwfIR92S6DrR6KYGN8aQeww14CAjNKCML3VWkWjxHIIZLE1vASU+ljTwxU+AStFOe5Xw==;EndpointSuffix=core.windows.net";
+        private const string storageConnectionString = "<Microsoft Azure Storage Account Key>";
         private const string queueName = "store-messages";
 
         static void Main(string[] args)
